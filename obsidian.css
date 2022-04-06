@@ -399,21 +399,21 @@ body {
   --scrollbar-thumb-bg: var(--background-modifier-border);
   --scrollbar-active-thumb-bg: var(--interactive-accent);
   /*──────────The PRIMARY Color Palette for Light Theme──────────*/
-  --color-l-whiter: hsl(36, 36%, 96.9%);
-  --color-l-white: hsl(35, 36%, 95%);
+  --color-l-whiter: hsl(0, 0%, 96.9%);
+  --color-l-white: hsl(0, 0%, 95%);
   --color-l-gray: var(--color-l-gray-50);
-  --color-l-gray-10: hsl(36, 37%, 92%);
-  --color-l-gray-20: hsl(35, 35%, 90%);
-  --color-l-gray-30: hsl(34, 36%, 88%);
-  --color-l-gray-40: hsl(36, 37%, 83%);
-  --color-l-gray-50: hsl(34, 37%, 70%);
-  --color-l-gray-60: hsl(34, 28%, 60%);
-  --color-l-gray-70: hsl(31, 23%, 50%);
-  --color-l-gray-80: hsl(34, 27%, 40%);
-  --color-l-gray-90: hsl(34, 30%, 37%);
-  --color-l-gray-100: hsl(35, 32%, 30%);
-  --color-l-black: hsl(31, 45%, 20%);
-  --color-l-blacker: hsl(32, 55%, 12%);
+  --color-l-gray-10: hsl(0, 0%, 92%);
+  --color-l-gray-20: hsl(0, 0%, 90%);
+  --color-l-gray-30: hsl(0, 0%, 88%);
+  --color-l-gray-40: hsl(0, 0%, 83%);
+  --color-l-gray-50: hsl(0, 0%, 70%);
+  --color-l-gray-60: hsl(0, 0%, 60%);
+  --color-l-gray-70: hsl(0, 0%, 50%);
+  --color-l-gray-80: hsl(0, 0%, 40%);
+  --color-l-gray-90: hsl(0, 0%, 37%);
+  --color-l-gray-100: hsl(0, 0%, 30%);
+  --color-l-black: hsl(0, 0%, 20%);
+  --color-l-blacker: hsl(0, 0%, 12%);
   --color-l-shadow-10: rgba(168, 160, 148, 0.8);
   --color-l-shadow-50: rgba(180, 172, 161, 0.3);
   --color-l-shadow-100: rgba(75, 70, 64, 0.2);
@@ -510,21 +510,21 @@ body {
   --scrollbar-thumb-bg: var(--background-modifier-border);
   --scrollbar-active-thumb-bg: var(--interactive-accent);
   /*──────────The PRIMARY Color Palette for Dark Theme──────────*/
-  --color-d-whiter: hsl(33, 66%, 90%);
-  --color-d-white: hsl(34, 50%, 80%);
+  --color-d-whiter: hsl(0, 0%, 90%);
+  --color-d-white: hsl(0, 0%, 80%);
   --color-d-gray: var(--color-d-gray-50);
-  --color-d-gray-10: hsl(34, 18%, 62%);
-  --color-d-gray-20: hsl(35, 27%, 55%);
-  --color-d-gray-30: hsl(34, 24%, 30%);
-  --color-d-gray-40: hsl(33, 22%, 30%);
-  --color-d-gray-50: hsl(33, 20%, 20%);
-  --color-d-gray-60: hsl(30, 19%, 17%);
-  --color-d-gray-70: hsl(27, 14%, 15%);
-  --color-d-gray-80: hsl(32, 19%, 13%);
-  --color-d-gray-90: hsl(30, 15%, 13%);
-  --color-d-gray-100: hsl(30, 20%, 8%);
-  --color-d-black: hsl(27, 15%, 12%);
-  --color-d-blacker: hsl(26, 16%, 9%);
+  --color-d-gray-10: hsl(0, 0%, 62%);
+  --color-d-gray-20: hsl(0, 0%, 55%);
+  --color-d-gray-30: hsl(0, 0%, 30%);
+  --color-d-gray-40: hsl(0, 0%, 30%);
+  --color-d-gray-50: hsl(0, 0%, 20%);
+  --color-d-gray-60: hsl(0, 0%, 17%);
+  --color-d-gray-70: hsl(0, 0%, 15%);
+  --color-d-gray-80: hsl(0, 0%, 13%);
+  --color-d-gray-90: hsl(0, 0%, 13%);
+  --color-d-gray-100: hsl(0, 0%, 8%);
+  --color-d-black: hsl(0, 0%, 12%);
+  --color-d-blacker: hsl(0, 0%, 9%);
   --color-d-shadow-10: rgba(29, 21, 13, 0.45);
   --color-d-shadow-50: rgba(29, 26, 22, 0.75);
   --color-d-shadow-100: rgba(19, 16, 13, 0.95);
@@ -3129,7 +3129,7 @@ div.callout[data-callout*=celebrate], div.callout[data-callout*=success] {
   --callout-color: 100, 175, 255;
 }
 div.callout[data-callout*=celebrate] .callout-title, div.callout[data-callout*=success] .callout-title {
-  background: linear-gradient(45deg, #ef92af70, #7bd7e970, #81e1a570, #ffda2b70);
+  background: linear-gradient(45deg, rgba(239, 146, 175, 0.4392156863), rgba(123, 215, 233, 0.4392156863), rgba(129, 225, 165, 0.4392156863), rgba(255, 218, 43, 0.4392156863));
   background-size: 800% 800%;
   -webkit-animation: animateCelebrate 15s ease infinite;
 }
@@ -9817,4 +9817,4 @@ settings:
         collapsed: false
 */
 
-/*# sourceMappingURL=obsidian.css.map */
+/*# sourceMappingURL=index.css.map */
